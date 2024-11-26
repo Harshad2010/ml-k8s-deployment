@@ -14,8 +14,8 @@ jobs:
       - name: Set up Minikube
         uses: manusa/actions-setup-minikube@v2.8.0
         with:
-          minikube-version: 'latest'
-          kubernetes-version: 'latest'
+          minikube_version: 'latest'   # Corrected from 'minikube-version' to 'minikube_version'
+          kubernetes_version: 'latest' # Corrected from 'kubernetes-version' to 'kubernetes_version'
           driver: docker
 
       # Step 2: Set up kubectl
